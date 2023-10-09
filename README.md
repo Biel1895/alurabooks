@@ -2,7 +2,7 @@
 
 Este é um projeto de website chamado **Alura Books** desenvolvido em HTML, CSS e JavaScript, criado para oferecer uma experiência de navegação agradável para os amantes de livros e entusiastas de leitura. O site apresenta uma ampla variedade de tópicos, desde programação até UX design, e traz as últimas novidades e best-sellers para os leitores ávidos.
 
-![Screenshot do Site](./assets/screencapture-biel1895-github-io-screencapture-alurabooks.png)
+![Screenshot do Site](./img/screencapture-alurabooks.png)
 
 ## Funcionalidades
 
