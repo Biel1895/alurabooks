@@ -1,0 +1,145 @@
+.carrosel__titulo-dois {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.card__descricao-dois {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes-dois {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes-dois {
+    display: flex;
+    align-items: center;
+}
+
+.card-dois {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card__estrelas {
+    margin-bottom: 0.5rem;
+}
+
+.descricao__titulo-dois {
+    color: var(--laranja);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.descricao__titulo-livro-dois {
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    line-height: 1.4rem;
+}
+
+.descricao__texto-dois {
+    font-size: 0.875rem;
+    width: 85%;
+    margin-top: 0.7rem;
+}
+
+.botoes__item-dois {
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.descricao__imagem-dois {
+    width: 45%;
+}
+
+.botoes__ancora-dois {
+    background-color: var(--laranja);
+    padding: 1rem 1.8rem;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    margin: 2rem 0 0.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .carrosel__titulo-dois {
+        font-size: 1.625rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0 3rem 0;
+    }
+
+    .swiper {
+        width: 55%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card-dois {
+        width: 45%;
+        margin: 2.5rem auto;
+    }
+
+    .descricao__imagem-dois {
+        width: 32%;
+    }
+
+    .card__botoes-dois {
+        margin-top: -0.7rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .carrosel__container-dois {
+        display: flex;
+        margin: 0 5vw 3rem 5vw;
+        align-items: center;
+    }
+
+    .card-dois {
+        width: 42%;
+        margin-top: 100px;
+        margin-left: 5rem;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0;
+    }
+
+    .descricao__imagem-dois {
+        width: 33%;
+    }
+
+    .descricao__titulo-dois {
+        font-size: 1.5rem;
+    }
+
+    .descricao__texto-dois {
+        font-size: 1rem;
+    }
+
+    .botoes__ancora-dois:hover {
+        background: var(--azul-degrade);
+    }
+
+    .botoes__item-dois {
+        cursor: pointer;
+    }
+}
